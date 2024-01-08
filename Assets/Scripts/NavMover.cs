@@ -26,9 +26,8 @@ public class NavMover : MonoBehaviour
         get => destination;
         set
         {
+            if (agent.isOnNavMesh) agent.destination = value;
             StartMove();
-            destination = value;
-            agent.destination = value;
         }
     }
     public float Speed
@@ -46,12 +45,12 @@ public class NavMover : MonoBehaviour
     }
 
 
-    public void StartMove()
-    {
-        agent.isStopped = false;
+    public void StartMove() 
+    { 
+        if (agent.isOnNavMesh) agent.isStopped = false; 
     }
-    public void StopMove()
-    {
-        agent.isStopped = true;
+    public void StopMove() 
+    { 
+        if (agent.isOnNavMesh) agent.isStopped = true; 
     }
 }
