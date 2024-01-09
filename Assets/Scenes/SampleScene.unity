@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 54353832}
   - component: {fileID: 54353833}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: -- Team 2 --
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -727,13 +727,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.006560439, y: -0.956834, z: 0.28731242, w: 0.0433262}
-  m_LocalPosition: {x: 1.03, y: 11.78, z: 25.27}
+  m_LocalRotation: {x: -0.07029808, y: -0.9337363, z: 0.27865684, w: -0.2134128}
+  m_LocalPosition: {x: -5.61, y: 7.56, z: 15.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 33.394, y: -174.561, z: 0.847}
+  m_LocalEulerAnglesHint: {x: 33.394, y: -205.494, z: 0.847}
 --- !u!1 &972748969
 GameObject:
   m_ObjectHideFlags: 0
@@ -879,15 +879,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pathPoints:
-  - {x: -10.577475, y: 0, z: -10.803272}
-  - {x: -12.325207, y: 0, z: -0.42914295}
-  - {x: -10.29, y: 0, z: 9.889454}
-  - {x: -2.14, y: 0, z: 10.087004}
-  - {x: 1.0424991, y: 0.013168573, z: 8.770248}
-  - {x: 4.5522203, y: 0, z: 6.815594}
-  - {x: 5.9614897, y: 0, z: 1.3671288}
-  - {x: 4.886576, y: 0.5033777, z: -8.228717}
-  - {x: -3.4983706, y: 0.6596396, z: -12.261837}
+  - {x: -2.6624362, y: 0, z: -4.8128166}
+  - {x: -11.092358, y: 0, z: 10.598536}
+  - {x: 6.171695, y: 0, z: 2.8529515}
+  - {x: 11.678562, y: 0, z: -6.2408376}
   loop: 1
 --- !u!4 &1341779522
 Transform:
@@ -1457,13 +1452,13 @@ GameObject:
   m_Component:
   - component: {fileID: 2008288750}
   - component: {fileID: 2008288751}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: -- Team 1 --
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2008288750
 Transform:
   m_ObjectHideFlags: 0
