@@ -12,8 +12,8 @@ public class GameManager : MonoBehaviour, IIntListener
 
     private void Start()
     {
-        blueBase.health.listeners.Add(gameObject);
-        redBase.health.listeners.Add(gameObject);
+        blueBase.health.listeners.Add(gameObject);        
+        redBase.health.listeners.Add(gameObject);        
     }
 
     public void IntUpdate(IntWrapper i)
