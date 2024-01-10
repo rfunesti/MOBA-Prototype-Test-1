@@ -16,6 +16,6 @@ MonoBehaviour:
   - {fileID: 8709947591979671786, guid: d9150cea449d1e14e97ef87e009bc81c, type: 3}
   - {fileID: 8709947591979671786, guid: d9150cea449d1e14e97ef87e009bc81c, type: 3}
   - {fileID: 8709947591979671786, guid: d9150cea449d1e14e97ef87e009bc81c, type: 3}
-  startDelay: 2
+  startDelay: 1
   spawnDelay: 0.2
   spawnInterval: 10
