@@ -881,7 +881,7 @@ MonoBehaviour:
   pathPoints:
   - {x: -2.6624362, y: 0, z: -4.8128166}
   - {x: -11.092358, y: 0, z: 10.598536}
-  - {x: 6.171695, y: 0, z: 2.8529515}
+  - {x: 6.171695, y: 0, z: 5.732401}
   - {x: 11.678562, y: 0, z: -6.2408376}
   loop: 1
 --- !u!4 &1341779522
@@ -1266,7 +1266,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7632648678108121701, guid: c1ae1f707f64f4147b5113fa15605359, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.66
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 7632648678108121701, guid: c1ae1f707f64f4147b5113fa15605359, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1612,7 +1612,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7632648678108121701, guid: c1ae1f707f64f4147b5113fa15605359, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.72
+      value: -2.12
       objectReference: {fileID: 0}
     - target: {fileID: 7632648678108121701, guid: c1ae1f707f64f4147b5113fa15605359, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1620,7 +1620,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7632648678108121701, guid: c1ae1f707f64f4147b5113fa15605359, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.44
+      value: 12.44
       objectReference: {fileID: 0}
     - target: {fileID: 7632648678108121701, guid: c1ae1f707f64f4147b5113fa15605359, type: 3}
       propertyPath: m_LocalRotation.w
