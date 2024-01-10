@@ -182,9 +182,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f66da54736ceab4daabf67104f9dc6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path: {fileID: 5504037023937982959, guid: 27a85d26e83dbb64ca8d82cd10907017, type: 3}
+  path: {fileID: 0}
   pathIndex: 0
-  followInReverse: 0
+  followInReverse: 1
 --- !u!114 &2326180160961392747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,7 +213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  searchRadius: 10
+  searchRadius: 15
   attackRange: 2
 --- !u!114 &4644177114204990937
 MonoBehaviour:

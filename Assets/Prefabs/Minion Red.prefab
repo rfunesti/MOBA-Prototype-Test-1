@@ -183,7 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   path: {fileID: 0}
   pathIndex: 0
-  followInReverse: 1
+  followInReverse: 0
 --- !u!114 &8049755471452673115
 MonoBehaviour:
   m_ObjectHideFlags: 0
