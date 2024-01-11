@@ -168,7 +168,7 @@ MonoBehaviour:
   - {fileID: 2326180160961392747}
   - {fileID: 7060725035400414938}
   currentActiveTask: 
-  activeTask: {fileID: 7717665011320852300}
+  activeTask: {fileID: 0}
 --- !u!114 &7060725035400414938
 MonoBehaviour:
   m_ObjectHideFlags: 0
