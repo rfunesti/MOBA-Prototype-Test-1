@@ -26,6 +26,7 @@ public class NavMover : MonoBehaviour
         get => destination;
         set
         {
+            destination = value;
             if (agent.isOnNavMesh) agent.destination = value;
             StartMove();
         }

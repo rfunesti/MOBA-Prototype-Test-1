@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 6047953062278025879}
   - component: {fileID: 737780293483810979}
   - component: {fileID: 8203881682661006314}
+  - component: {fileID: 8074844011387449167}
   m_Layer: 6
   m_Name: Hero Blue
   m_TagString: Untagged
@@ -150,6 +151,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e3674670b23b044f86f0dfc36bc0baf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  abilities:
+  - {fileID: 8074844011387449167}
 --- !u!114 &2401780132637356598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,6 +179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   updateFrequency: 0.2
   tasks:
+  - {fileID: 8074844011387449167}
   - {fileID: 7639848475716685073}
   - {fileID: 6047953062278025879}
   currentActiveTask: 
@@ -239,6 +243,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19889f063213044479b4dc463fb6ae8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8074844011387449167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3643836570923605392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df2e11132cd644d4788a8befcce267ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldownTime: 1
+  aimDirection: {x: 0, y: 0, z: 0}
+  projectilePrefab: {fileID: 640930020739465470, guid: 2efd3ad613a3bb242bd9f38ebb4a5e73, type: 3}
 --- !u!1001 &4959230829881259343
 PrefabInstance:
   m_ObjectHideFlags: 0
